@@ -10,9 +10,14 @@ The primary goal is to reduce **false negatives (missed fraud cases)** while mai
 
 ---
 
-## Dataset
+## 📊 Dataset
 
-The dataset used is `creditcard.csv`, containing credit card transactions made by European cardholders in September 2013.
+The project uses the **Credit Card Fraud Detection dataset** originally available on Kaggle. It contains credit card transactions made by European cardholders in September 2013.
+
+Due to its large size, the dataset (`creditcard.csv`) is not included in this repository.
+
+You can download it from:
+https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
 ### Dataset Information
 
@@ -335,10 +340,10 @@ This makes CatBoost the most balanced and reliable model for fraud detection in 
 
 ```plaintext
 CREDITCARD_FRAUD_DETECTION/
-│── Data/
-│   └── creditcard.csv
+│── Data/(not included in repo due to size)
+│   └── creditcard.csv (available from Kaggle)
 │
-│── Models/
+│── Models/ (not included in repo)
 │   ├── catboost_model.pkl
 │   └── scaler.pkl
 │
