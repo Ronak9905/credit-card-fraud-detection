@@ -1,0 +1,21 @@
+# Data files
+Data/
+*.csv
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+env/
+
+# Model files (optional if large)
+*.pkl
+*.h5
+
+# System files
+.DS_Store
