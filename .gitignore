@@ -13,7 +13,7 @@ __pycache__/
 venv/
 env/
 
-# Model files (optional if large)
+# Model files 
 *.pkl
 *.h5
 
